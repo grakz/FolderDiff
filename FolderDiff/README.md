@@ -1,7 +1,7 @@
 ﻿# FolderDiff
+> Recursively search for files that have been changed or added 
 
-## Name
-  FolderDiff - recursively search for files that have been changed or added 
+[![License](http://img.shields.io/:license-Unlicense-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ## Synopsis
   FolderDiff [--exclude=\"EXCLUDE_PATH\"] PATH_A PATH_B            
@@ -38,3 +38,9 @@ FolderDiff --exclude="/exclude_me" /test/a /test/b
 Changes made in /test/a after /test/b are highlighted
 Changes made in /test/b after /test/a are ignored
 Any changes in /test/a/exclude_me are ignored.
+
+## License
+
+[![License](http://img.shields.io/:license-unlicense-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[The Unlicense](https://unlicense.org/)**
